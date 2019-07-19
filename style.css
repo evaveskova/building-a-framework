@@ -6,6 +6,8 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
+    color: white;
 }
 
 .navbar {
@@ -79,6 +81,127 @@ body {
     bottom: 0;
 }
 
+#design {
+  overflow: hidden;
+  height: 80vh;
+  background-color: rgb(255, 128, 0);
+  color: white;
+}
+
+.first-text {
+  margin-bottom: 120px;
+  padding: 100px;
+
+}
+
+.first-text h2 {
+  font-size: 2.5vw;
+  font-weight: 400;
+  line-height: 46.2px;
+}
+
+.first-text p {
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.first-image {
+  padding: 30px;
+}
+
+#domain {
+  overflow: hidden;
+  height: 80vh;
+  background-color: rgb(188, 56, 46);
+  color: white;
+  padding-top: 80px;
+}
+
+#money {
+  overflow: hidden;
+  height: 80vh;
+  background-color: rgb(56, 141, 128);
+  color: white;
+  padding-top: 80px;
+}
+
+.second-text {
+  padding: 100px;
+  margin-bottom: 120px;
+  margin-right: 200px;
+}
+
+.second-text h2 {
+  font-size: 2.5vw;
+  font-weight: 400;
+  line-height: 46.2px;
+}
+
+.second-text p {
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.second-image img {
+  height: 70vh;
+  width: 60vh;
+}
+
+#audience {
+  overflow: hidden;
+  height: 80vh;
+  background-color: rgb(87, 119, 131);
+  color: white;
+  padding-top: 80px;
+}
+
+#memories {
+  overflow: hidden;
+  height: 80vh;
+  background-color: rgb(188, 56, 46);
+  color: white;
+  padding-top: 80px;
+}
+
+#join {
+  height: 80vh;
+  background-color: rgb(255, 128, 0);
+  color: white;
+  background-image: url(https://www.blogger.com/about/img/sections/millions/millions-map_2x.png);
+  
+}
+
+
+.join-button {
+    text-decoration: none;
+    background-color: rgb(87, 119, 131);
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 13px;
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+
+  .third-text {
+    padding: 100px;
+    width: 30vw;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  .third-text p {
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+
+  .third-text h2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 46.2px;
+  }
 
 @media (max-width: 768px) {
     .main-text {
