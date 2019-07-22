@@ -273,6 +273,7 @@ footer {
         height: 70vh;
     }
 
+
     .first-text h2 {
         font-size: 25px;
 
@@ -312,6 +313,10 @@ footer {
     .second-text {
 
         margin-right: 0px;
+    }
+
+    #lower-grid {
+        display: block;
     }
 
     .join-button {
