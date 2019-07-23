@@ -8,7 +8,7 @@
     .col-lg-#{$i} {
         grid-column: span $i;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             grid-column: 1 /span 12;
         }
 
@@ -19,7 +19,7 @@
     .col-md-#{$i} {
         grid-column: span $i;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             grid-column: 1 /span 12;
         }
 
@@ -30,7 +30,7 @@
     .col-sm-#{$i} {
         grid-column: span $i;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             grid-column: 1 /span 12;
         }
 
@@ -58,7 +58,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 
-    @media (max-width: 1199.98px) {
+    @media (max-width: 1024px) {
         display: block;
     }
 
@@ -68,7 +68,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 
-    @media (max-width: 991.98px) {
+    @media only screen and (min-width: 720px) and (max-width: 1024px) {
         display: block;
     }
 
@@ -78,7 +78,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 
-    @media (max-width: 767.98px) {
+    @media (max-width: 720px) {
         display: block;
     }
 
@@ -118,7 +118,7 @@
     .margin-lg-top-#{$i} {
         margin-top: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             margin-top: 0em;
         }
     }
@@ -126,7 +126,7 @@
     .margin-lg-bottom-#{$i} {
         margin-bottom: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             margin-bottom: 0em;
         }
     }
@@ -134,7 +134,7 @@
     .margin-lg-right-#{$i} {
         margin-right: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             margin-right: 0em;
         }
     }
@@ -142,7 +142,7 @@
     .margin-lg-left-#{$i} {
         margin-left: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             margin-left: 0em;
         }
     }
@@ -150,7 +150,7 @@
     .margin-lg#{$i} {
         margin: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             margin: 0em;
         }
     }
@@ -159,7 +159,7 @@
     .margin-md-top-#{$i} {
         margin-top: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             margin-top: 0em;
         }
     }
@@ -167,7 +167,7 @@
     .margin-md-bottom-#{$i} {
         margin-bottom: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             margin-bottom: 0em;
         }
     }
@@ -175,7 +175,7 @@
     .margin-md-right-#{$i} {
         margin-right: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             margin-right: 0em;
         }
     }
@@ -183,7 +183,7 @@
     .margin-md-left-#{$i} {
         margin-left: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             margin-left: 0em;
         }
     }
@@ -191,7 +191,7 @@
     .margin-md#{$i} {
         margin: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             margin: 0em;
         }
     }
@@ -200,7 +200,7 @@
     .margin-sm-top-#{$i} {
         margin-top: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             margin-top: 0em;
         }
     }
@@ -208,15 +208,15 @@
     .margin-sm-bottom-#{$i} {
         margin-bottom: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             margin-bottom: 0em;
         }
     }
 
-    .margin-md-right-#{$i} {
+    .margin-sm-right-#{$i} {
         margin-right: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             margin-right: 0em;
         }
     }
@@ -224,7 +224,7 @@
     .margin-sm-left-#{$i} {
         margin-left: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             margin-left: 0em;
         }
     }
@@ -232,7 +232,7 @@
     .margin-sm#{$i} {
         margin: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             margin: 0em;
         }
     }
@@ -305,7 +305,7 @@
     .padding-lg-top-#{$i} {
         padding-top: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             padding-top: 0em;
         }
     }
@@ -313,7 +313,7 @@
     .padding-lg-bottom-#{$i} {
         padding-bottom: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             padding-bottom: 0em;
         }
     }
@@ -321,7 +321,7 @@
     .padding-lg-right-#{$i} {
         padding-right: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             padding-right: 0em;
         }
     }
@@ -329,7 +329,7 @@
     .padding-lg-left-#{$i} {
         padding-left: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             padding-left: 0em;
         }
     }
@@ -337,7 +337,7 @@
     .padding-lg#{$i} {
         padding: #{$i}em;
 
-        @media (max-width: 1199.98px) {
+        @media (max-width: 1024px) {
             padding: 0em;
         }
     }
@@ -346,7 +346,7 @@
     .padding-md-top-#{$i} {
         padding-top: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             padding-top: 0em;
         }
     }
@@ -354,7 +354,7 @@
     .padding-md-bottom-#{$i} {
         padding-bottom: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             padding-bottom: 0em;
         }
     }
@@ -362,7 +362,7 @@
     .padding-md-right-#{$i} {
         padding-right: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             padding-right: 0em;
         }
     }
@@ -370,7 +370,7 @@
     .padding-md-left-#{$i} {
         padding-left: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             padding-left: 0em;
         }
     }
@@ -378,7 +378,7 @@
     .padding-md#{$i} {
         padding: #{$i}em;
 
-        @media (max-width: 991.98px) {
+        @media only screen and (min-width: 720px) and (max-width: 1024px) {
             padding: 0em;
         }
     }
@@ -387,7 +387,7 @@
     .padding-sm-top-#{$i} {
         padding-top: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             padding-top: 0em;
         }
     }
@@ -395,15 +395,15 @@
     .padding-sm-bottom-#{$i} {
         padding-bottom: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             padding-bottom: 0em;
         }
     }
 
-    .padding-md-right-#{$i} {
+    .padding-sm-right-#{$i} {
         padding-right: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             padding-right: 0em;
         }
     }
@@ -411,7 +411,7 @@
     .padding-sm-left-#{$i} {
         padding-left: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             padding-left: 0em;
         }
     }
@@ -419,7 +419,7 @@
     .padding-sm#{$i} {
         padding: #{$i}em;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 720px) {
             padding: 0em;
         }
     }
